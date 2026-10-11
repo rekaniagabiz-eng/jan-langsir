@@ -103,7 +103,16 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
 .hero h1{font-weight:500;max-width:10em}
 .hero .btn.light{background:var(--plum);color:#fff}
 .hero .btn.ghost{color:var(--plum)}
-@media(max-width:700px){.hero{background:linear-gradient(180deg,rgba(247,243,235,.93),rgba(247,243,235,.72)),url('images/hero.jpeg') 72% center/cover no-repeat,#efe6da}.hero .wrap{padding-top:80px;padding-bottom:80px}}</style>
+@media(max-width:700px){.hero{background:linear-gradient(180deg,rgba(247,243,235,.93),rgba(247,243,235,.72)),url('images/hero.jpeg') 72% center/cover no-repeat,#efe6da}.hero .wrap{padding-top:80px;padding-bottom:80px}}
+#kenapa{background:#F3EDE4;padding:100px 0}
+#kenapa h2.t{text-align:center;font-weight:500}
+#kenapa h2.t::after{content:"";display:block;width:56px;height:2px;background:var(--brass);margin:18px auto 0}
+#kenapa .grid{counter-reset:w;gap:0 56px;margin-top:56px}
+#kenapa .why{counter-increment:w;background:transparent;border:0;border-top:1px solid rgba(168,120,43,.45);border-radius:0;padding:26px 4px 34px}
+#kenapa .why::before{content:"0" counter(w);font-family:'Bricolage Grotesque',sans-serif;color:var(--brass);font-size:.95rem;letter-spacing:.14em;display:block;margin-bottom:14px}
+#kenapa .why h3{font-weight:500;font-size:1.3rem;margin-bottom:.4em}
+#kenapa .why p{line-height:1.7}
+@media(prefers-color-scheme:dark){#kenapa{background:#241b26}}</style>
 </head>
 <body>
 
