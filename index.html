@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" href="/favicon.png">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png"><title>Jan Langsir | Langsir & Bidai Tempahan Khas</title>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<title>Jan Langsir | Langsir & Bidai Tempahan Khas</title>
 <meta name="description" content="Langsir dan bidai tempahan khas. Ukur dan sebut harga di tapak. WhatsApp kami sekarang.">
 <meta property="og:title" content="Jan Langsir | Langsir & Bidai Tempahan Khas">
 <meta property="og:type" content="website">
@@ -13,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Figtree:wght@400;600&display=swap" rel="stylesheet">
 
-<!-- ===== META PIXEL: GANTIKAN 000000000000000 DENGAN PIXEL ID ANDA (2 tempat) ===== -->
+<!-- ===== META PIXEL ===== -->
 <script>
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
@@ -96,6 +97,7 @@ input,textarea{width:100%;padding:12px 14px;border:1px solid rgba(128,128,128,.5
 .info p{margin:0 0 14px}
 footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;font-size:.9rem}
 .wa{position:fixed;right:16px;bottom:16px;background:#1FA855;color:#fff;border-radius:999px;padding:14px 20px;font-weight:600;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:30}
+
 .hero{color:#2B1F2A;background:linear-gradient(90deg,rgba(247,243,235,.94) 0%,rgba(247,243,235,.8) 35%,rgba(247,243,235,0) 62%),url('images/hero.jpeg') right center/cover no-repeat,#efe6da}
 .pleats{display:none}
 .rail{height:3px}
@@ -112,7 +114,27 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
 #kenapa .why::before{content:"0" counter(w);font-family:'Bricolage Grotesque',sans-serif;color:var(--brass);font-size:.95rem;letter-spacing:.14em;display:block;margin-bottom:14px}
 #kenapa .why h3{font-weight:500;font-size:1.3rem;margin-bottom:.4em}
 #kenapa .why p{line-height:1.7}
-@media(prefers-color-scheme:dark){#kenapa{background:#241b26}}</style>
+@media(prefers-color-scheme:dark){#kenapa{background:#241b26}}
+#promosi{padding:100px 0}
+#promosi h2.t{text-align:center;font-weight:500}
+#promosi h2.t::after{content:"";display:block;width:56px;height:2px;background:var(--brass);margin:18px auto 0}
+#promosi .lead{text-align:center;margin:18px auto 0}
+.promo-grid{display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin-top:52px}
+.pcard{background:var(--card);border:1px solid rgba(168,120,43,.4)}
+.pcard .ph{border-radius:0;aspect-ratio:4/3}
+.pbody{padding:28px 28px 34px}
+.pbody h3{font-size:1.55rem;font-weight:500;margin-bottom:.5em}
+.pprice{margin:.15em 0;color:var(--muted)}
+.pprice strong{font-family:'Bricolage Grotesque',sans-serif;font-size:1.9rem;font-weight:500;color:var(--plum)}
+.pbody ul{list-style:none;padding:0;margin:20px 0 26px}
+.pbody li{padding-left:22px;position:relative;margin:4px 0}
+.pbody li::before{content:"";position:absolute;left:0;top:.8em;width:12px;height:1px;background:var(--brass)}
+@media(prefers-color-scheme:dark){.pprice strong{color:#e6c98a}}
+.pcard .ph{aspect-ratio:1/1}
+.pbody{text-align:center;padding:24px 20px 32px}
+.pbody h3{font-size:1.35rem}
+.pbody .btn{margin-top:10px}
+</style>
 </head>
 <body>
 
@@ -122,6 +144,7 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
     <ul>
       <li><a href="#produk">Produk</a></li>
       <li><a href="#kenapa">Kenapa Pilih Kami</a></li>
+      <li><a href="#promosi">Promosi</a></li>
       <li><a href="#tentang">Tentang Kami</a></li>
       <li><a href="#galeri">Galeri</a></li>
       <li><a class="btn wa-link" href="https://wa.me/60194477867?text=Hi%2C%20saya%20berminat%20dengan%20langsir" target="_blank" rel="noopener">WhatsApp</a></li>
@@ -172,16 +195,25 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
   </div>
 </section>
 
-<section>
+<section id="promosi">
   <div class="wrap">
-    <div class="promo">
-      <h2>Tawaran pakej istimewa</h2>
-      <!-- Tukar harga dan butiran pakej anda di sini -->
-      <div class="pk">
-        <div>Langsir satu lapis<strong>RM____</strong></div>
-        <div>Langsir dua lapis<strong>RM____</strong></div>
-      </div>
-      <a class="btn light wa-link" href="https://wa.me/60123456789?text=Hi%2C%20saya%20berminat%20dengan%20pakej%20promosi" target="_blank" rel="noopener">Tanya tentang promosi</a>
+    <h2 class="t">Promosi kami</h2>
+    <p class="lead">Pakej istimewa untuk rumah anda. Harga dan syarat tertakluk.</p>
+    <div class="promo-grid">
+      <article class="pcard">
+        <div class="ph"><img src="images/promo-1.jpeg" alt="Promosi Langsir S-Fold: bermula dari RM1799 satu lapis, RM2699 dua lapis, termasuk pemasangan" loading="lazy" onerror="this.remove()"></div>
+        <div class="pbody">
+          <h3>Langsir S-Fold</h3>
+          <a class="btn wa-link" href="https://wa.me/60194477867?text=Hi%2C%20saya%20berminat%20dengan%20promosi%20langsir%20S-Fold" target="_blank" rel="noopener">Dapatkan promosi</a>
+        </div>
+      </article>
+      <article class="pcard">
+        <div class="ph"><img src="images/promo-2.jpeg" alt="Promosi Langsir French Pleat: bermula dari RM1388 satu lapis, RM2388 dua lapis, termasuk pemasangan" loading="lazy" onerror="this.remove()"></div>
+        <div class="pbody">
+          <h3>Langsir French Pleat</h3>
+          <a class="btn wa-link" href="https://wa.me/60194477867?text=Hi%2C%20saya%20berminat%20dengan%20promosi%20langsir%20French%20Pleat" target="_blank" rel="noopener">Dapatkan promosi</a>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -244,17 +276,17 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
       <h2 class="t">Hubungi kami</h2>
       <!-- Tukar alamat, nombor dan waktu operasi -->
       <p><strong>Alamat</strong><br>Alamat kedai anda di sini</p>
-      <p><strong>Telefon / WhatsApp</strong><br><a class="wa-link" href="https://wa.me/60123456789" target="_blank" rel="noopener">012-345 6789</a></p>
+      <p><strong>Telefon / WhatsApp</strong><br><a class="wa-link" href="https://wa.me/60194477867" target="_blank" rel="noopener">019-447 7867</a></p>
       <p><strong>Waktu operasi</strong><br>Isnin hingga Sabtu: 9am - 6pm<br>Ahad &amp; cuti umum: tutup</p>
     </div>
   </div>
 </section>
 
 <footer>&copy; <span id="yr"></span> Jan Langsir. Semua hak terpelihara.</footer>
-<a class="wa wa-link" href="https://wa.me/60123456789?text=Hi%2C%20saya%20berminat%20dengan%20langsir" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+<a class="wa wa-link" href="https://wa.me/60194477867?text=Hi%2C%20saya%20berminat%20dengan%20langsir" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
 
 <script>
-var WA='60123456789'; // nombor WhatsApp anda, tanpa + atau sempang
+var WA='60194477867'; // nombor WhatsApp anda, tanpa + atau sempang
 document.getElementById('yr').textContent=new Date().getFullYear();
 document.querySelectorAll('.wa-link').forEach(function(a){
   a.addEventListener('click',function(){ if(window.fbq) fbq('track','Contact'); });
