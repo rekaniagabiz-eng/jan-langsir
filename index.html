@@ -134,7 +134,7 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
 .pbody{text-align:center;padding:24px 20px 32px}
 .pbody h3{font-size:1.35rem}
 .pbody .btn{margin-top:10px}
-.jenis{padding:100px 0}.jenis h2.t{text-align:center;font-weight:500}.jenis h2.t::after{content:"";display:block;width:56px;height:2px;background:var(--brass);margin:18px auto 0}.jenis .lead{text-align:center;margin:18px auto 0}.jgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0 48px;margin-top:52px}.jitem{border-top:1px solid rgba(168,120,43,.45);padding:24px 4px 34px}.jitem h3{font-weight:500;font-size:1.25rem;margin-bottom:.4em}.jitem p{margin:0 0 10px;color:var(--muted);line-height:1.7}.jitem span{font-size:.9rem;color:var(--brass);letter-spacing:.02em}.jcta{text-align:center;margin:30px 0 0}</style>
+.jenis{padding:100px 0}.jenis h2.t{text-align:center;font-weight:500}.jenis h2.t::after{content:"";display:block;width:56px;height:2px;background:var(--brass);margin:18px auto 0}.jenis .lead{text-align:center;margin:18px auto 0}.jgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0 48px;margin-top:52px}.jitem{border-top:1px solid rgba(168,120,43,.45);padding:24px 4px 34px}.jitem h3{font-weight:500;font-size:1.25rem;margin-bottom:.4em}.jitem p{margin:0 0 10px;color:var(--muted);line-height:1.7}.jitem span{font-size:.9rem;color:var(--brass);letter-spacing:.02em}.jcta{text-align:center;margin:30px 0 0}.jimg{aspect-ratio:4/3;overflow:hidden;margin-bottom:18px}.jimg img{width:100%;height:100%;object-fit:cover;display:block}</style>
 </head>
 <body>
 
@@ -287,7 +287,7 @@ footer{background:var(--ink);color:#d8cfd8;text-align:center;padding:26px 22px;f
 
 <script>
 var WA='60194477867'; // nombor WhatsApp anda, tanpa + atau sempang
-document.getElementById('yr').textContent=new Date().getFullYear();
+document.querySelectorAll('.jitem').forEach(function(c,i){var im=new Image();im.alt=c.querySelector('h3').textContent;im.loading='lazy';im.onload=function(){var d=document.createElement('div');d.className='jimg';d.appendChild(im);c.insertBefore(d,c.firstChild)};im.src='images/jenis-'+(i+1)+'.jpeg'});document.getElementById('yr').textContent=new Date().getFullYear();
 document.querySelectorAll('.wa-link').forEach(function(a){
   a.addEventListener('click',function(){ if(window.fbq) fbq('track','Contact'); });
 });
