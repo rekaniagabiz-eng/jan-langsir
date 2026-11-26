@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blog Jan Langsir</title>
+    <link>https://USERNAME.github.io/REPO/blog/</link>
+    <description>Tip, idea dan panduan memilih langsir &amp; bidai untuk rumah dan premis anda.</description>
+    <language>ms</language>
+    <item>
+      <title>Langsir Blackout atau Dim-out? Apa Beza dan Mana Satu Sesuai</title>
+      <link>https://USERNAME.github.io/REPO/blog/langsir-blackout-atau-dimout/</link>
+      <guid>https://USERNAME.github.io/REPO/blog/langsir-blackout-atau-dimout/</guid>
+      <pubDate>Thu, 26 Nov 2026 08:00:00 +0000</pubDate>
+      <description>Dua jenis langsir yang paling kerap ditanya pelanggan. Kenali perbezaannya sebelum anda membuat pilihan untuk bilik tidur atau ruang tamu.</description>
+    </item>
+    <item>
+      <title>5 Tip Memilih Langsir untuk Ruang Tamu</title>
+      <link>https://USERNAME.github.io/REPO/blog/5-tip-pilih-langsir-ruang-tamu/</link>
+      <guid>https://USERNAME.github.io/REPO/blog/5-tip-pilih-langsir-ruang-tamu/</guid>
+      <pubDate>Wed, 25 Nov 2026 08:00:00 +0000</pubDate>
+      <description>Ruang tamu adalah wajah rumah anda. Ikut 5 tip mudah ini supaya langsir yang dipilih cantik, selesa dan tahan lama.</description>
+    </item>
+  </channel>
+</rss>
