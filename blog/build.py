@@ -22,7 +22,7 @@ from urllib.parse import quote
 # Alamat penuh laman anda, TANPA garis condong di hujung.
 # Contoh GitHub Pages : https://namaanda.github.io/nama-repo
 # Contoh domain sendiri: https://www.janlangsir.com
-SITE_URL = "https://USERNAME.github.io/REPO"
+SITE_URL = "https://jan-langsir.com"
 SITE_NAME = "Jan Langsir"
 BLOG_TITLE = "Blog Jan Langsir"
 BLOG_DESC = "Tip, idea dan panduan memilih langsir & bidai untuk rumah dan premis anda."
